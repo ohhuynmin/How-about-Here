@@ -10051,6 +10051,7 @@ blockquote {
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
+  border-bottom:  solid palevioletred 10px;
 }
 
 .caption {
@@ -10378,17 +10379,39 @@ header.masthead .post-heading .meta a {
     font-size: 36px;
   }
 }
+/*
 .floating { 
   border-radius: 10px;
   border: solid black;
   position: fixed; 
   right: 50%;
-  top: 680px;
-  margin-right: -880px;
+  top: 500px;
+  margin-right: -700px;
   text-align:left;
   width: 150px; 
   height: 250px;
   padding-top:40px;
   padding-right:200px;
 
+}
+*/
+.sidebar{
+  width:20%;
+  height:400px;
+  position: sticky;
+  top:200px;
+  border-radius: 10px;
+  border: solid black;
+
+  text-align:left;
+  width: 150px; 
+  height: 250px;
+  padding-top:40px;
+  padding-right:200px;
+  float:right;
+
+}
+
+a{
+   padding-inline-start: 5px;
 }
