@@ -62,7 +62,7 @@ body {
   margin: 0;
   font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 399;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -109,6 +109,7 @@ address {
 ol,
 ul,
 dl {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -118,6 +119,10 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+li{
+  margin-bottom: 5px;
 }
 
 dt {
@@ -208,6 +213,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  text-align : center;
 }
 
 caption {
@@ -10371,4 +10377,18 @@ header.masthead .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
+}
+.floating { 
+  border-radius: 10px;
+  border: solid black;
+  position: fixed; 
+  right: 50%;
+  top: 680px;
+  margin-right: -880px;
+  text-align:left;
+  width: 150px; 
+  height: 250px;
+  padding-top:40px;
+  padding-right:200px;
+
 }
