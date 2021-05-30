@@ -10423,3 +10423,7 @@ header.masthead .post-heading .meta a {
 a{
    padding-inline-start: 5px;
 }
+.img-member{
+  width: 200px;
+  height: 200px;
+}
