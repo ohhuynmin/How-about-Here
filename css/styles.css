@@ -10427,3 +10427,29 @@ a{
   width: 200px;
   height: 200px;
 }
+#sect{
+  width: 50%;
+  float: left;
+}
+aside, #as{
+  width: 400px;
+  height: max-content;
+  margin: 100px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 50px;
+  float: right;
+}
+footer{
+  position: relative;
+  clear: both;
+}
+.notice {
+  width: fit-content;
+  font-size:small;
+}
+.as-title{
+  width: fit-content;
+  padding:  5px;
+  background-color: greenyellow;
+}
